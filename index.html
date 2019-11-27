@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8" />
+    <title>Kostka</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Pacifico|Roboto&display=swap&subset=latin-ext"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Inconsolata"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="wyglad.css" />
+    <link rel="stylesheet" href="kostka.css" />
+    <link rel="shortcut icon" href="img/kostka.jfif" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="wrap">
+      <H1>Spróbuj szczęścia i rzuć kostką!</H1>
+      <div class="options1">
+        Ile kostek potrzebujesz
+        <select id="sel" class="cubeSelect" onchange="selectFun();">
+		  <option value="1">1x</option>
+          <option value="2">2x</option>
+          <option value="3">3x</option>
+          <option value="4">4x</option>
+          <option value="5">5x</option>
+          <option value="6">6x</option>
+        </select>
+      </div>
+	  <div class="options2">
+		Wybierz kolor kostki
+		<select id="color" class="cubeColor" onchange="selectColor();">
+			<option value="green" style="color:green">*</option>
+			<option value="red" style="color:red">*</option>
+			<option value="blue" style="color:blue">*</option>
+			<option value="yellow" style="color:yellow">*</option>
+			<option value="white" style="color:white">*</option>
+		
+		
+		</select>
+	  
+	  
+	  </div>
+
+        </div>
+      </div>
+      <button class="btn">RZUT</button>
+    </div>
+
+    <script src="options.js"></script>
+    <!-- <script src=""></script> -->
+  </body>
+</html>
