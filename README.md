@@ -1,4 +1,4 @@
 # hello-word
 Moje pierwsze repozytorium w githube
 
- I lubie  :js
+ I lubie  :js:pizza
